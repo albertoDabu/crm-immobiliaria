@@ -6,7 +6,7 @@ import MatchingTool from './components/MatchingTool';
 import BuyerDetailModal from './components/BuyerDetailModal';
 import { api } from './lib/api';
 import { useAuth } from './hooks/useAuth';
-import { LucidePlus, LucideDownload, LucideUpload, LucideLogOut } from 'lucide-react';
+import { LucidePlus, LucideDownload, LucideUpload, LucideLogOut, LucideFilter } from 'lucide-react';
 
 function App() {
   const { signOut, user } = useAuth();
